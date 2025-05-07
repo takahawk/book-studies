@@ -22,7 +22,7 @@
   (sqrt-iter 1.0 x))
 
 
-(display (sqrt 9)) (newline)
-(display (sqrt (+ 100 37))) (newline)
-(display (sqrt (+ (sqrt 2) (sqrt 3)))) (newline)
-(display (square (sqrt 1000))) (newline)
+(sqrt 9)
+(sqrt (+ 100 37))
+(sqrt (+ (sqrt 2) (sqrt 3)))
+(square (sqrt 1000))

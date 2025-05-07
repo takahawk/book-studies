@@ -21,10 +21,10 @@
               b))))
 
 
-(display (middle 0111 1337 2000)) (newline)
-(display (middle 1337 0111 2000)) (newline)
-(display (middle 2000 0111 1337)) (newline)
-(display (middle 0111 2000 1337)) (newline)
+(middle 0111 1337 2000)
+(middle 1337 0111 2000)
+(middle 2000 0111 1337)
+(middle 0111 2000 1337)
 
 (define (sqr x) (* x x))
 
@@ -32,4 +32,4 @@
   (+ (sqr (max a b c))
      (sqr (middle a b c))))
 
-(display (sum-of-2-lrgst-sqrs 2 3 4)) (newline)
+(sum-of-2-lrgst-sqrs 2 3 4)

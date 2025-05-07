@@ -1,10 +1,10 @@
 (define size 2)
-(display size) (newline)
-(display (* 5 size)) (newline)
+size
+(* 5 size)
 
 (define pi 3.14159)
 (define radius 10)
-(display (* pi (* radius radius))) (newline)
+(* pi (* radius radius))
 
 (define circumference (* 2 pi radius))
-(display circumference) (newline)
+circumference
